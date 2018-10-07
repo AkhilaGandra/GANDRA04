@@ -1,0 +1,98 @@
+<!--
+TicTacToe
+- - - - - - - - - -
+https://diznicolasamor.github.io/TicTacToe/ 
+Author:  Diz, Nicolás Amor (https://github.com/DizNicolasAmor)
+This project is a challenge posed by FreeCodeCamp.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ClassicalTicTacToe</title>
+
+    <meta name="viewport" content="height-device-height, initial-scale=1.0, user-scalable=no"/>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="abc.css" type="text/css">
+  </head>
+
+  <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html">AKHILA</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link disabled" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link disabled" href="Contact.html">Contact</a>
+                        <a class="nav-item nav-link active" href="Tic.html">TicTac</a>
+                    </div>
+                </div>
+            </nav>
+
+    <!-- user chooses X or O -->
+    <div id="choose">
+      <h1>CHOOSE</h1>
+      <div class="text-center">
+        <button id="chooseX">X</button>
+        <button id="chooseO">O</button>
+      </div>
+    </div>
+    
+    <!-- modal -> user chooses level -->
+    <div id="chooseLevel" class="hide">
+      <div><button id="easyMode">EASY</button></div>
+      <div><button id="mediumMode">MEDIUM</button></div>
+      <div><button id="hardMode">HARD</button></div>
+    </div>
+
+    <!-- board -->
+    <div id="board">
+      <tr>
+        <td><button class="locker odd" id="0"></button></td>
+        <td><button class="locker even" id="1"></button></td>
+        <td><button class="locker odd" id="2"></button></td>
+      </tr>
+      <tr>
+        <td><button class="locker even" id="3"></button></td>
+        <td><button class="locker odd" id="4"></button></td>
+        <td><button class="locker even" id="5"></button></td>
+      </tr>  
+      <tr>
+        <td><button class="locker odd" id="6"></button></td>
+        <td><button class="locker even" id="7"></button></td>
+        <td><button class="locker odd" id="8"></button></td>
+      </tr>
+    </div>
+    
+    <!-- modal -> You win! // Computer wins!   //  button: Play again?  -->
+    <div id="result" class="hide">
+      <h1 id="gameResult"></h1>
+      &nbsp;
+      <div class="text-center">
+        <button id="playAgain">Play again?</button>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+    <!-- my js file-->
+    <script src="main.js" type="text/javascript" charset="utf-8"></script>
+   
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="game.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  </body>
+</html>

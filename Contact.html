@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact HTML></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">AKHILA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link disabled" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="Contact.html">Contact</a>
+                <a class="nav-item nav-link disabled" href="Tic.html">TicTac</a>
+            </div>
+        </div>
+    </nav>
+    <header class="Header">Contact details</header>
+    <div class="container">
+        <a href="https://www.linkedin.com/in/akhila-gandra-13022a170/"> click here - redirect to linkedIn<img width="50"
+                height="50" src="Linkedin2.png" alt="Linkedin"> </a><br>
+        <a href="https://github.com/AkhilaGandra">click here - redirect to github<img width="50" height="50" src="git.jpg"
+                alt="githubin"></a><br>
+        <a href="https://bitbucket.org/Akhila_Gandra/">click here - redirect to bitbucket<img width="50" height="50"
+                src="bitbucket.png" alt="bitbucketin"></a> <br>
+        <form>
+            <br>
+            <br>
+            firstname:<br>
+
+            <input type="text" name="firstname" value="" required>
+            <br>
+            lastname:<br>
+            <input type="text" name="lastname" required>
+            <br>
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value="female" checked>female <br>
+            
+            <textarea name message rows="4" cols="8">Any Questions??</textarea>
+            <div class="form-group row">
+                <label for="inputEmail" class="col-sm-3 col-form-label">
+                    <p id="email"><strong>Email</strong></p>
+                </label>
+                <div class="col-sm-3">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="@ex.com" pattern=".+gmail.com" required>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputPhone" class="col-sm-3 col-form-label">
+                    <p id="phone"><strong>Phone</strong></p>
+                </label>
+                <div class="col-sm-3">
+                    <input type="phone" class="form-control" id="inputPhone" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                </div>
+            </div>
+            <button type="button" onclick="alert('This is new form')">Reset</button>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="CONTACT.js"></script>
+</body>
+
+</html>
