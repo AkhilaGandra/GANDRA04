@@ -76,7 +76,7 @@ h1{
   font-size: 1.5em;
   text-align: center;
   vertical-align: middle;
-  background: #616161;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #9bc5c3, #616161);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #9bc5c3, #616161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #08f013;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #9bc5c3, #2ee20a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #9bc5c3, #09ee27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
