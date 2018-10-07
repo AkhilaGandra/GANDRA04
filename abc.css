@@ -5,6 +5,7 @@
         
         border-color:black;
         border-width: 1px;
+<<<<<<< HEAD
        
         background-image: url("FBG19.jpg");
         background-size: 100%;
@@ -20,3 +21,12 @@
 .last{
     text-align:center;
 }
+=======
+        border-style: solid;
+        background-image: url("light.jpg");
+        background-size: 100%;
+       
+
+        
+ }
+>>>>>>> 1973f886bd985a42a97c7772391aa958d1c46c4c
