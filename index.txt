@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AKHILA GANDRA</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="abc.css" type="text/css">
+   
+
+</head>
+
+<body>
+    
+     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">About me</a>
+        </div>
+            
+             <div>       
+            <a class="navbar-brand" href="Contact.html">Contact</a>
+            <a class="navbar-brand" href="Math.html">Calculation</a>
+                
+            </div>
+        </div>
+    </nav>
+    <header>
+            <h3>AKHILA GANDRA</h3>
+    </header>
+    <div class="col-sm-3">
+        <aside class="aside-header">Bearcat</aside>
+        <img src="AKKI.jpeg" class="img-circle" width="250"  height="250" align=right>
+    </div>
+    <main>
+        <article>
+            <div class="container">
+             <div class="row">
+           <div class="col-sm-8">
+               <h3>persnal information</h3>
+               <section>
+                    <h4 id="present-section">Present</h4>
+        <h5>Iam a new graduate student at Northwest Missouri State University from fall 2018 working on my Masters of
+            Applied Computer Science.</h5>
+               </section>
+               <section>
+                    <h4 id="past-section"></h4>Past</h4>
+                    <h5>Iam from Warangal(India).I recently completed my undergraduation in Electronics and Communication
+                        Engineering
+                        stream from KITSW. Basically, I am new to this computer science world where i feel like there is so much to
+                        learn to enhance my knowledge in this particular field.</h5>
+               </section>
+               <section>
+                    <h4 id="Future-section">Future Plan</h4>
+        <h5>I want to see myself as a web Developer in a reputed software company.</h5>
+               </section>
+               <section>
+                    <h4 id="timings"></h4>Schedule</h4>
+                    <table style="width:50%">
+                        <tr>
+                            <th>Subjects</th>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                            <th>Wednesday</th>
+                            <th>Thursday</th>
+                            <th>Friday</th>
+            
+                        </tr>
+                        <tr>
+                            <td>DBMS</td>
+                            <td>8:00am to 8:50am</td>
+                            <td> </td>
+                            <td>8:00am to 8:50am</td>
+                            <td> </td>
+                            <td>8:00am to 8:50am</td>
+                        </tr>
+                        <tr>
+                            <td>Web Apps</td>
+                            <td>11:00am to 11:50am</td>
+                            <td> </td>
+                            <td>11:00am to 11:50am</td>
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td>Network Fundamentals</td>
+                            <td>1:00 pm to 1:50pm</td>
+                            <td>2:00pm to 3:50pm</td>
+                            <td>1:00pm to 1:50pm</td>
+                            <td> </td>
+                            <td>1:00pm to 1:50pm</td>
+                        </tr>
+                        <tr>
+                            <td>OOPS</td>
+                            <td> </td>
+                            <td>8:00 am to 9:15 am</td>
+                            <td> </td>
+                            <td>8:00 am to 9:15am 3:15pm to 5:15pm</td>
+                            <td> </td>
+                        </tr>
+                    </table>
+
+               </section>
+
+        </div>
+    <div class="col-sm-12">
+            <aside class="video">VIDEO</aside>
+        <iframe width="200" height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1"> align="right"</iframe>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="W04.js"></script>
+</div>
+</div>
+<article>
+</body>
+
+</html>
