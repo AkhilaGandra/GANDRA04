@@ -22,4 +22,7 @@
     text-align:center;
 }
 
-
+.navbar-toggler-icon{
+    align-items:left;
+    
+}
